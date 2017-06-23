@@ -22,7 +22,8 @@ public class NewTest
 		public void testEasy() {	
 			driver.get("http://newtours.demoaut.com/");  
 			String title = driver.getTitle();				 
-			Assert.assertTrue(title.contains("Welcome: Mercury Tours")); 		
+			Assert.assertTrue(title.contains("Welcome: Mercury Tours")); 	
+			System.out.println("Execution is completed successfully");	
 		}
 		
 		@AfterTest
